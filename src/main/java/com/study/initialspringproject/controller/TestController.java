@@ -14,7 +14,7 @@ public class TestController {
         return "Hello World";
     }
 
-    @GetMapping("/test")
+    @GetMapping("/parameter")
     public String getTestParameter(@RequestParam String name) {
         return name;
     }
