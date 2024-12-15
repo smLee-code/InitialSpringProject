@@ -11,5 +11,6 @@ SpringBoot 연습 프로젝트
 ## Settings
 
 - Settings - Build, Execution, Deployment - Build Tools - Gradle
+  
   Build and run using 및 Run tests using 옵션 : Gradle -> IntelliJ IDEA 변경
   (속도 이슈)
