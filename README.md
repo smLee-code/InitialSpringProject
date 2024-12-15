@@ -8,7 +8,7 @@ SpringBoot 연습 프로젝트
 - JDK 23 (17 이상)
 - Gradle - Groovy
 
-## Settings
+## IntelliJ Settings
 
 - Settings - Build, Execution, Deployment - Build Tools - Gradle
   
