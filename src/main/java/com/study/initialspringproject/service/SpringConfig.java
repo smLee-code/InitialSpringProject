@@ -1,6 +1,7 @@
 package com.study.initialspringproject.service;
 
 import com.study.initialspringproject.repository.JdbcMemberRepository;
+import com.study.initialspringproject.repository.JdbcTemplateMemberRepository;
 import com.study.initialspringproject.repository.MemberRepository;
 import com.study.initialspringproject.repository.MemoryMemberRepository;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -27,7 +28,8 @@ public class SpringConfig {
     @Bean
     public MemberRepository memberRepository() {
 //        return new MemoryMemberRepository();
-        return new JdbcMemberRepository(dataSource);
+//        return new JdbcMemberRepository(dataSource);
+        return new JdbcTemplateMemberRepository(dataSource);
     }
 
 
